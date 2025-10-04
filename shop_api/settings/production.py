@@ -10,9 +10,9 @@ ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS').split(',')
 
 # CORS_ALLOWED_ORIGINS = os.environ.get('CORS_ALLOWED_ORIGINS').split(',')
 
-CORS_ALLOWED_ORIGINS = ['https://kwise.dharmzeey.com']
+CORS_ALLOWED_ORIGINS = ['https://shop.dharmzeey.com']
 
-CSRF_TRUSTED_ORIGINS = ['https://kwise.dharmzeey.com']
+CSRF_TRUSTED_ORIGINS = ['https://shop.dharmzeey.com']
 
 DATABASES = {
   'default': {
@@ -29,7 +29,7 @@ DATABASES = {
 CACHES = {
   'default': {
     'BACKEND': 'django.core.cache.backends.db.DatabaseCache',
-    'LOCATION': 'kwise_cache_table',
+    'LOCATION': 'shop_cache_table',
     },
   'password_reset': {
     'BACKEND': 'django.core.cache.backends.db.DatabaseCache',

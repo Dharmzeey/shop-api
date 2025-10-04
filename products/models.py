@@ -3,60 +3,72 @@ from django.db import models
 
 
 class Category(models.Model):
-  name = models.CharField(max_length=30)
+    """Represents a general product category like Electronics, Fashion, etc."""
+    name = models.CharField(max_length=100, unique=True)
+    description = models.TextField(blank=True)
+    image = models.ImageField(upload_to="categories/", blank=True, null=True)
 
-  class Meta:
-    verbose_name_plural = "Categories"
-  
-  def __str__(self):
-    return self.name
-    
+    class Meta:
+        verbose_name_plural = "Categories"
+
+    def __str__(self):
+        return self.name
+
 
 class Brand(models.Model):
-    category = models.ForeignKey(Category, on_delete=models.SET_NULL, null=True)
-    name = models.CharField(max_length=30)
-    
+    """Represents product brands (can belong to multiple categories)."""
+    name = models.CharField(max_length=100, unique=True)
+    categories = models.ManyToManyField(Category, related_name="brands", blank=True)
+    description = models.TextField(blank=True)
+
     def __str__(self):
         return self.name
-  
+
+
 class Product(models.Model):
-    AVAILABILITY_STATUS_AVAILABLE = 1
-    AVAILABILITY_STATUS_UNAVAILABLE = 0
+    """Generalized Product Model for all product types."""
+    AVAILABILITY_CHOICES = [
+        (1, "Available"),
+        (0, "Unavailable"),
+    ]
+    CONDITION_CHOICES = [
+        (0, "Brand New"),
+        (1, "Used"),
+    ]
 
-    UTILIZATION_STATUS_BRAND_NEW = 0
-    UTILIZATION_STATUS_UK_USED = 1
-
-
-    AVAILABILITY_STATUS_CHOICES = (
-        (AVAILABILITY_STATUS_AVAILABLE,"Available"),
-        (AVAILABILITY_STATUS_UNAVAILABLE, "Unavailable")
-    )
-    UTILIZATION_STATUS_CHOICES = (
-        (UTILIZATION_STATUS_BRAND_NEW,"Brand New"),
-        (UTILIZATION_STATUS_UK_USED, "UK Used")
-    )
     uuid = models.UUIDField(default=uuid.uuid4, unique=True, editable=False)
-    category = models.ForeignKey(Category, on_delete=models.SET_NULL, null=True)
-    brand = models.ForeignKey(Brand, on_delete=models.SET_NULL, null=True)
-    name = models.CharField(max_length=225)
-    description = models.TextField()
+    category = models.ForeignKey(Category, on_delete=models.SET_NULL, null=True, related_name="products")
+    brand = models.ForeignKey(Brand, on_delete=models.SET_NULL, null=True, related_name="products")
+    name = models.CharField(max_length=255)
+    description = models.TextField(blank=True)
     price = models.IntegerField()
-    image = models.ImageField(upload_to="products/%Y/%m")
-    stock = models.IntegerField()
-    availability_status = models.IntegerField(choices=AVAILABILITY_STATUS_CHOICES)
-    utilization_status = models.IntegerField(choices=UTILIZATION_STATUS_CHOICES)
+    image = models.ImageField(upload_to="products/%Y/%m", blank=True, null=True)
+    stock = models.PositiveIntegerField(default=0)
+    availability_status = models.IntegerField(choices=AVAILABILITY_CHOICES, default=1)
+    condition = models.IntegerField(choices=CONDITION_CHOICES, default=0)
+
+    # Product variations (e.g., sizes, colors)
+    color = models.CharField(max_length=50, blank=True, null=True)
+    size = models.CharField(max_length=50, blank=True, null=True)
+    weight = models.IntegerField(null=True, blank=True, help_text="Weight in kg")
+
     created_at = models.DateTimeField(auto_now_add=True)
-    
+    updated_at = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        ordering = ["-created_at"]
+
     def __str__(self):
         return self.name
-  
+
 
 class Deal(models.Model):
+    """Special deals, promotions, or campaigns."""
     uuid = models.UUIDField(default=uuid.uuid4, unique=True, editable=False)
     title = models.CharField(max_length=200)
-    details = models.TextField()
-    image = models.ImageField(upload_to="deals/%Y/%m")
-    link_to = models.URLField(max_length=500)
+    details = models.TextField(blank=True)
+    image = models.ImageField(upload_to="deals/%Y/%m", blank=True, null=True)
+    link_to = models.URLField(max_length=500, blank=True, null=True)
     created_at = models.DateTimeField(auto_now_add=True)
 
     class Meta:

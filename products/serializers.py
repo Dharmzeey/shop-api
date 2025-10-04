@@ -4,59 +4,46 @@ from users.models import Favorite
 
 
 class CategorySerializer(serializers.ModelSerializer):
-  class Meta:
-    model = Category
-    fields = "__all__"
-    
-    
+    """Serializer for product categories."""
+    class Meta:
+        model = Category
+        fields = "__all__"
+
+
 class BrandSerializer(serializers.ModelSerializer):
-  class Meta:
-    model = Brand
-    fields = "__all__"
-  def to_representation(self, instance):
-    representation = super().to_representation(instance)
-    representation['category'] = instance.category.name
-    return representation
+    """Serializer for brands showing their linked categories by name."""
+    categories = serializers.StringRelatedField(many=True)
+
+    class Meta:
+        model = Brand
+        fields = "__all__"
+
 
 class ProductSerializer(serializers.ModelSerializer):
-  availabilityStatus = serializers.SerializerMethodField()
-  utilizationStatus = serializers.SerializerMethodField()
-  id = serializers.SerializerMethodField()
-  user_wishlist = serializers.SerializerMethodField()
+    """Main product serializer with UUID as ID and extra info."""
+    id = serializers.UUIDField(source="uuid", read_only=True)
+    category = serializers.StringRelatedField()
+    brand = serializers.StringRelatedField()
+    availabilityStatus = serializers.CharField(source="get_availability_status_display", read_only=True)
+    conditionStatus = serializers.CharField(source="get_condition_display", read_only=True)
+    user_wishlist = serializers.SerializerMethodField()
 
+    class Meta:
+        model = Product
+        exclude = ["uuid", "availability_status", "condition"]
 
-  class Meta:
-    model = Product
-    exclude = ["uuid", "utilization_status", "availability_status"]
-    
-  def to_representation(self, instance):
-    representation = super().to_representation(instance)
-    representation["category"] = instance.category.name 
-    representation["brand"] = instance.brand.name
-    return representation
-  
-  def get_availabilityStatus(self, obj):
-    return obj.get_availability_status_display()
-
-  def get_utilizationStatus(self, obj):
-    return obj.get_utilization_status_display()
-  
-  # This below will take the uuid from the database and render it as ID (the DB has id as pk but uuid as the external exposed id for querying sake alone)
-  def get_id(self, obj):
-    return str(obj.uuid)
-  
-  def get_user_wishlist(self, obj):
-    user = self.context.get('request').user      
-    if user.is_authenticated:
-      return Favorite.objects.filter(user=user, product=obj).exists()
-    return False
+    def get_user_wishlist(self, obj):
+        """Checks if this product is in the authenticated user's favorites."""
+        user = self.context.get("request").user
+        if user and user.is_authenticated:
+            return Favorite.objects.filter(user=user, product=obj).exists()
+        return False
 
 
 class DealSerializer(serializers.ModelSerializer):
-  id = serializers.SerializerMethodField()
-  class Meta:
-    model = Deal
-    exclude = ["uuid",]
-  # This below will take the uuid from the database and render it as ID (the DB has id as pk but uuid as the external exposed id for querying sake alone)
-  def get_id(self, obj):
-    return str(obj.uuid)
+    """Serializer for special deals or promotions."""
+    id = serializers.UUIDField(source="uuid", read_only=True)
+
+    class Meta:
+        model = Deal
+        exclude = ["uuid"]

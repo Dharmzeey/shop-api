@@ -44,7 +44,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'kwise_api.urls'
+ROOT_URLCONF = 'shop_api.urls'
 AUTH_USER_MODEL = "authentication.User"
 
 TEMPLATES = [
@@ -63,7 +63,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'kwise_api.wsgi.application'
+WSGI_APPLICATION = 'shop_api.wsgi.application'
 
 
 # Password validation

@@ -7,6 +7,8 @@ urlpatterns = [
   path("brands/", views.product_brands, name="product_brands"),
   
   path("", views.product_list, name="product_list"),
+  # GET /products/?category=Clothing&color=Blue&size=M
+
   path("search/", views.product_search, name="product_search"),
   path("category/<str:category_name>/", views.products_by_category, name="products_by_category"),
   path("brand/<str:category_name>/<str:brand_name>/", views.products_by_brand, name="products_by_brand"),
