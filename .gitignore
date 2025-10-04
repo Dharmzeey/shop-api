@@ -1,0 +1,15 @@
+__pycache__
+*.sqlite3
+*.pyc
+.env
+.env.prod
+development.py
+media
+bruno/
+todo.md
+# load_products.py
+# products.csv
+# utilities/images
+payment/pay.html
+ngrok.exe
+error.log

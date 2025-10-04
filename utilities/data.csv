@@ -1,0 +1,775 @@
+SNo,Local Government Area,State,Delivery Days,Delivery Fee
+1,Abadam,Borno State,5,6000
+2,Abaji,FCT,3,3000
+3,Abak,Akwa Ibom State,5,6000
+4,Abakaliki,Ebonyi State,5,6000
+5,Aba North,Abia State,5,6000
+6,Aba South,Abia State,5,6000
+7,Abeokuta North,Ogun State,3,3000
+8,Abeokuta South,Ogun State,3,3000
+9,Abi,Cross River State,5,6000
+10,Aboh Mbaise,Imo State,5,6000
+11,Abua/Odual,Rivers State,5,6000
+12,Adavi,Kogi State,3,3000
+13,Ado Ekiti,Ekiti State,3,3000
+14,Ado-Odo/Ota,Ogun State,3,3000
+15,Afijio,Oyo State,1,1000
+16,Afikpo North,Ebonyi State,5,6000
+17,Afikpo South,Ebonyi State,5,6000
+18,Agaie,Niger State,5,6000
+19,Agatu,Benue State,5,6000
+20,Agwara,Niger State,5,6000
+21,Agege,Lagos State,3,3000
+22,Aguata,Anambra State,5,6000
+23,Ahiazu Mbaise,Imo State,5,6000
+24,Ahoada East,Rivers State,5,6000
+25,Ahoada West,Rivers State,5,6000
+26,Ajaokuta,Kogi State,3,3000
+27,Ajeromi-Ifelodun,Lagos State,3,3000
+28,Ajingi,Kano State,5,6000
+29,Akamkpa,Cross River State,5,6000
+30,Akinyele,Oyo State,1,1000
+31,Akko,Gombe State,5,6000
+32,Akoko-Edo,Edo State,3,3000
+33,Akoko North-East,Ondo State,3,3000
+34,Akoko North-West,Ondo State,3,3000
+35,Akoko South-West,Ondo State,3,3000
+36,Akoko South-East,Ondo State,3,3000
+37,Akpabuyo,Cross River State,5,6000
+38,Akuku-Toru,Rivers State,5,6000
+39,Akure North,Ondo State,3,3000
+40,Akure South,Ondo State,3,3000
+41,Akwanga,Nasarawa State,5,6000
+42,Albasu,Kano State,5,6000
+43,Aleiro,Kebbi State,5,6000
+44,Alimosho,Lagos State,3,3000
+45,Alkaleri,Bauchi State,5,6000
+46,Amuwo-Odofin,Lagos State,3,3000
+47,Anambra East,Anambra State,5,6000
+48,Anambra West,Anambra State,5,6000
+49,Anaocha,Anambra State,5,6000
+50,Andoni,Rivers State,5,6000
+51,Aninri,Enugu State,5,6000
+52,Aniocha North,Delta State,3,3000
+53,Aniocha South,Delta State,3,3000
+54,Anka,Zamfara State,5,6000
+55,Ankpa,Kogi State,3,3000
+56,Apa,Benue State,5,6000
+57,Apapa,Lagos State,3,3000
+58,Ado,Benue State,5,6000
+59,Ardo Kola,Taraba State,5,6000
+60,Arewa Dandi,Kebbi State,5,6000
+61,Argungu,Kebbi State,5,6000
+62,Arochukwu,Abia State,5,6000
+63,Asa,Kwara State,3,3000
+64,Asari-Toru,Rivers State,5,6000
+65,Askira/Uba,Borno State,5,6000
+66,Atakunmosa East,Osun State,3,3000
+67,Atakunmosa West,Osun State,3,3000
+68,Atiba,Oyo State,1,1000
+69,Atisbo,Oyo State,1,1000
+70,Augie,Kebbi State,5,6000
+71,Auyo,Jigawa State,5,6000
+72,Awe,Nasarawa State,5,6000
+73,Awgu,Enugu State,5,6000
+74,Awka North,Anambra State,5,6000
+75,Awka South,Anambra State,5,6000
+76,Ayamelum,Anambra State,5,6000
+77,Aiyedaade,Osun State,3,3000
+78,Aiyedire,Osun State,3,3000
+79,Babura,Jigawa State,5,6000
+80,Badagry,Lagos State,3,3000
+81,Bagudo,Kebbi State,5,6000
+82,Bagwai,Kano State,5,6000
+83,Bakassi,Cross River State,5,6000
+84,Bokkos,Plateau State,5,6000
+85,Bakori,Katsina State,5,6000
+86,Bakura,Zamfara State,5,6000
+87,Balanga,Gombe State,5,6000
+88,Bali,Taraba State,5,6000
+89,Bama,Borno State,5,6000
+90,Bade,Yobe State,5,6000
+91,Barkin Ladi,Plateau State,5,6000
+92,Baruten,Kwara State,3,3000
+93,Bassa,Kogi State,3,3000
+94,Bassa,Plateau State,5,6000
+95,Batagarawa,Katsina State,5,6000
+96,Batsari,Katsina State,5,6000
+97,Bauchi,Bauchi State,5,6000
+98,Baure,Katsina State,5,6000
+99,Bayo,Borno State,5,6000
+100,Bebeji,Kano State,5,6000
+101,Bekwarra,Cross River State,5,6000
+102,Bende,Abia State,5,6000
+103,Biase,Cross River State,5,6000
+104,Bichi,Kano State,5,6000
+105,Bida,Niger State,5,6000
+106,Billiri,Gombe State,5,6000
+107,Bindawa,Katsina State,5,6000
+108,Binji,Sokoto State,5,6000
+109,Biriniwa,Jigawa State,5,6000
+110,Birnin Gwari,Kaduna State,5,6000
+111,Birnin Kebbi,Kebbi State,5,6000
+112,Birnin Kudu,Jigawa State,5,6000
+113,Birnin Magaji/Kiyaw,Zamfara State,5,6000
+114,Biu,Borno State,5,6000
+115,Bodinga,Sokoto State,5,6000
+116,Bogoro,Bauchi State,5,6000
+117,Boki,Cross River State,5,6000
+118,Boluwaduro,Osun State,3,3000
+119,Bomadi,Delta State,3,3000
+120,Bonny,Rivers State,5,6000
+121,Borgu,Niger State,5,6000
+122,Boripe,Osun State,3,3000
+123,Bursari,Yobe State,5,6000
+124,Bosso,Niger State,5,6000
+125,Brass,Bayelsa State,5,6000
+126,Buji,Jigawa State,5,6000
+127,Bukkuyum,Zamfara State,5,6000
+128,Buruku,Benue State,5,6000
+129,Bungudu,Zamfara State,5,6000
+130,Bunkure,Kano State,5,6000
+131,Bunza,Kebbi State,5,6000
+132,Burutu,Delta State,3,3000
+133,Bwari,FCT,3,3000
+134,Calabar Municipal,Cross River State,5,6000
+135,Calabar South,Cross River State,5,6000
+136,Chanchaga,Niger State,5,6000
+137,Charanchi,Katsina State,5,6000
+138,Chibok,Borno State,5,6000
+139,Chikun,Kaduna State,5,6000
+140,Dala,Kano State,5,6000
+141,Damaturu,Yobe State,5,6000
+142,Damban,Bauchi State,5,6000
+143,Dambatta,Kano State,5,6000
+144,Damboa,Borno State,5,6000
+145,Dandi,Kebbi State,5,6000
+146,Dandume,Katsina State,5,6000
+147,Dange Shuni,Sokoto State,5,6000
+148,Danja,Katsina State,5,6000
+149,Dan Musa,Katsina State,5,6000
+150,Darazo,Bauchi State,5,6000
+151,Dass,Bauchi State,5,6000
+152,Daura,Katsina State,5,6000
+153,Dawakin Kudu,Kano State,5,6000
+154,Dawakin Tofa,Kano State,5,6000
+155,Degema,Rivers State,5,6000
+156,Dekina,Kogi State,3,3000
+157,Demsa,Adamawa State,5,6000
+158,Dikwa,Borno State,5,6000
+159,Doguwa,Kano State,5,6000
+160,Doma,Nasarawa State,5,6000
+161,Donga,Taraba State,5,6000
+162,Dukku,Gombe State,5,6000
+163,Dunukofia,Anambra State,5,6000
+164,Dutse,Jigawa State,5,6000
+165,Dutsi,Katsina State,5,6000
+166,Dutsin Ma,Katsina State,5,6000
+167,Eastern Obolo,Akwa Ibom State,5,6000
+168,Ebonyi,Ebonyi State,5,6000
+169,Edati,Niger State,5,6000
+170,Ede North,Osun State,3,3000
+171,Ede South,Osun State,3,3000
+172,Edu,Kwara State,3,3000
+173,Ife Central,Osun State,3,3000
+174,Ife East,Osun State,3,3000
+175,Ife North,Osun State,3,3000
+176,Ife South,Osun State,3,3000
+177,Efon,Ekiti State,3,3000
+178,Egbado North,Ogun State,3,3000
+179,Egbado South,Ogun State,3,3000
+180,Egbeda,Oyo State,1,1000
+181,Egbedore,Osun State,3,3000
+182,Egor,Edo State,3,3000
+183,Ehime Mbano,Imo State,5,6000
+184,Ejigbo,Osun State,3,3000
+185,Ekeremor,Bayelsa State,5,6000
+186,Eket,Akwa Ibom State,5,6000
+187,Ekiti,Kwara State,3,3000
+188,Ekiti East,Ekiti State,3,3000
+189,Ekiti South-West,Ekiti State,3,3000
+190,Ekiti West,Ekiti State,3,3000
+191,Ekwusigo,Anambra State,5,6000
+192,Eleme,Rivers State,5,6000
+193,Emuoha,Rivers State,5,6000
+194,Emure,Ekiti State,3,3000
+195,Enugu East,Enugu State,5,6000
+196,Enugu North,Enugu State,5,6000
+197,Enugu South,Enugu State,5,6000
+198,Epe,Lagos State,3,3000
+199,Esan Central,Edo State,3,3000
+200,Esan North-East,Edo State,3,3000
+201,Esan South-East,Edo State,3,3000
+202,Esan West,Edo State,3,3000
+203,Ese Odo,Ondo State,3,3000
+204,Esit Eket,Akwa Ibom State,5,6000
+205,Essien Udim,Akwa Ibom State,5,6000
+206,Etche,Rivers State,5,6000
+207,Ethiope East,Delta State,3,3000
+208,Ethiope West,Delta State,3,3000
+209,Etim Ekpo,Akwa Ibom State,5,6000
+210,Etinan,Akwa Ibom State,5,6000
+211,Eti Osa,Lagos State,3,3000
+212,Etsako Central,Edo State,3,3000
+213,Etsako East,Edo State,3,3000
+214,Etsako West,Edo State,3,3000
+215,Etung,Cross River State,5,6000
+216,Ewekoro,Ogun State,3,3000
+217,Ezeagu,Enugu State,5,6000
+218,Ezinihitte,Imo State,5,6000
+219,Ezza North,Ebonyi State,5,6000
+220,Ezza South,Ebonyi State,5,6000
+221,Fagge,Kano State,5,6000
+222,Fakai,Kebbi State,5,6000
+223,Faskari,Katsina State,5,6000
+224,Fika,Yobe State,5,6000
+225,Fufure,Adamawa State,5,6000
+226,Funakaye,Gombe State,5,6000
+227,Fune,Yobe State,5,6000
+228,Funtua,Katsina State,5,6000
+229,Gabasawa,Kano State,5,6000
+230,Gada,Sokoto State,5,6000
+231,Gagarawa,Jigawa State,5,6000
+232,Gamawa,Bauchi State,5,6000
+233,Ganjuwa,Bauchi State,5,6000
+234,Ganye,Adamawa State,5,6000
+235,Garki,Jigawa State,5,6000
+236,Garko,Kano State,5,6000
+237,Garun Mallam,Kano State,5,6000
+238,Gashaka,Taraba State,5,6000
+239,Gassol,Taraba State,5,6000
+240,Gaya,Kano State,5,6000
+241,Gayuk,Adamawa State,5,6000
+242,Gezawa,Kano State,5,6000
+243,Gbako,Niger State,5,6000
+244,Gboko,Benue State,5,6000
+245,Gbonyin,Ekiti State,3,3000
+246,Geidam,Yobe State,5,6000
+247,Giade,Bauchi State,5,6000
+248,Giwa,Kaduna State,5,6000
+249,Gokana,Rivers State,5,6000
+250,Gombe,Gombe State,5,6000
+251,Gombi,Adamawa State,5,6000
+252,Goronyo,Sokoto State,5,6000
+253,Grie,Adamawa State,5,6000
+254,Gubio,Borno State,5,6000
+255,Gudu,Sokoto State,5,6000
+256,Gujba,Yobe State,5,6000
+257,Gulani,Yobe State,5,6000
+258,Guma,Benue State,5,6000
+259,Gumel,Jigawa State,5,6000
+260,Gummi,Zamfara State,5,6000
+261,Gurara,Niger State,5,6000
+262,Guri,Jigawa State,5,6000
+263,Gusau,Zamfara State,5,6000
+264,Guzamala,Borno State,5,6000
+265,Gwadabawa,Sokoto State,5,6000
+266,Gwagwalada,FCT,3,3000
+267,Gwale,Kano State,5,6000
+268,Gwandu,Kebbi State,5,6000
+269,Gwaram,Jigawa State,5,6000
+270,Gwarzo,Kano State,5,6000
+271,Gwer East,Benue State,5,6000
+272,Gwer West,Benue State,5,6000
+273,Gwiwa,Jigawa State,5,6000
+274,Gwoza,Borno State,5,6000
+275,Hadejia,Jigawa State,5,6000
+276,Hawul,Borno State,5,6000
+277,Hong,Adamawa State,5,6000
+278,Ibadan North,Oyo State,1,1000
+279,Ibadan North-East,Oyo State,1,1000
+280,Ibadan North-West,Oyo State,1,1000
+281,Ibadan South-East,Oyo State,1,1000
+282,Ibadan South-West,Oyo State,1,1000
+283,Ibaji,Kogi State,3,3000
+284,Ibarapa Central,Oyo State,1,1000
+285,Ibarapa East,Oyo State,1,1000
+286,Ibarapa North,Oyo State,1,1000
+287,Ibeju-Lekki,Lagos State,3,3000
+288,Ibeno,Akwa Ibom State,5,6000
+289,Ibesikpo Asutan,Akwa Ibom State,5,6000
+290,Ibi,Taraba State,5,6000
+291,Ibiono-Ibom,Akwa Ibom State,5,6000
+292,Idah,Kogi State,3,3000
+293,Idanre,Ondo State,3,3000
+294,Ideato North,Imo State,5,6000
+295,Ideato South,Imo State,5,6000
+296,Idemili North,Anambra State,5,6000
+297,Idemili South,Anambra State,5,6000
+298,Ido,Oyo State,1,1000
+299,Ido Osi,Ekiti State,3,3000
+300,Ifako-Ijaiye,Lagos State,3,3000
+301,Ifedayo,Osun State,3,3000
+302,Ifedore,Ondo State,3,3000
+303,Ifelodun,Kwara State,3,3000
+304,Ifelodun,Osun State,3,3000
+305,Ifo,Ogun State,3,3000
+306,Igabi,Kaduna State,5,6000
+307,Igalamela Odolu,Kogi State,3,3000
+308,Igbo Etiti,Enugu State,5,6000
+309,Igbo Eze North,Enugu State,5,6000
+310,Igbo Eze South,Enugu State,5,6000
+311,Igueben,Edo State,3,3000
+312,Ihiala,Anambra State,5,6000
+313,Ihitte/Uboma,Imo State,5,6000
+314,Ilaje,Ondo State,3,3000
+315,Ijebu East,Ogun State,3,3000
+316,Ijebu North,Ogun State,3,3000
+317,Ijebu North East,Ogun State,3,3000
+318,Ijebu Ode,Ogun State,3,3000
+319,Ijero,Ekiti State,3,3000
+320,Ijumu,Kogi State,3,3000
+321,Ika,Akwa Ibom State,5,6000
+322,Ika North East,Delta State,3,3000
+323,Ikara,Kaduna State,5,6000
+324,Ika South,Delta State,3,3000
+325,Ikeduru,Imo State,5,6000
+326,Ikeja,Lagos State,3,3000
+327,Ikenne,Ogun State,3,3000
+328,Ikere,Ekiti State,3,3000
+329,Ikole,Ekiti State,3,3000
+330,Ikom,Cross River State,5,6000
+331,Ikono,Akwa Ibom State,5,6000
+332,Ikorodu,Lagos State,3,3000
+333,Ikot Abasi,Akwa Ibom State,5,6000
+334,Ikot Ekpene,Akwa Ibom State,5,6000
+335,Ikpoba Okha,Edo State,3,3000
+336,Ikwerre,Rivers State,5,6000
+337,Ikwo,Ebonyi State,5,6000
+338,Ikwuano,Abia State,5,6000
+339,Ila,Osun State,3,3000
+340,Ilejemeje,Ekiti State,3,3000
+341,Ile Oluji/Okeigbo,Ondo State,3,3000
+342,Ilesa East,Osun State,3,3000
+343,Ilesa West,Osun State,3,3000
+344,Illela,Sokoto State,5,6000
+345,Ilorin East,Kwara State,3,3000
+346,Ilorin South,Kwara State,3,3000
+347,Ilorin West,Kwara State,3,3000
+348,Imeko Afon,Ogun State,3,3000
+349,Ingawa,Katsina State,5,6000
+350,Ini,Akwa Ibom State,5,6000
+351,Ipokia,Ogun State,3,3000
+352,Irele,Ondo State,3,3000
+353,Irepo,Oyo State,1,1000
+354,Irepodun,Kwara State,3,3000
+355,Irepodun,Osun State,3,3000
+356,Irepodun/Ifelodun,Ekiti State,3,3000
+357,Irewole,Osun State,3,3000
+358,Isa,Sokoto State,5,6000
+359,Ise/Orun,Ekiti State,3,3000
+360,Iseyin,Oyo State,1,1000
+361,Ishielu,Ebonyi State,5,6000
+362,Isiala Mbano,Imo State,5,6000
+363,Isiala Ngwa North,Abia State,5,6000
+364,Isiala Ngwa South,Abia State,5,6000
+365,Isin,Kwara State,3,3000
+366,Isi Uzo,Enugu State,5,6000
+367,Isokan,Osun State,3,3000
+368,Isoko North,Delta State,3,3000
+369,Isoko South,Delta State,3,3000
+370,Isu,Imo State,5,6000
+371,Isuikwuato,Abia State,5,6000
+372,Itas/Gadau,Bauchi State,5,6000
+373,Itesiwaju,Oyo State,1,1000
+374,Itu,Akwa Ibom State,5,6000
+375,Ivo,Ebonyi State,5,6000
+376,Iwajowa,Oyo State,1,1000
+377,Iwo,Osun State,3,3000
+378,Izzi,Ebonyi State,5,6000
+379,Jaba,Kaduna State,5,6000
+380,Jada,Adamawa State,5,6000
+381,Jahun,Jigawa State,5,6000
+382,Jakusko,Yobe State,5,6000
+383,Jalingo,Taraba State,5,6000
+384,Jama'are,Bauchi State,5,6000
+385,Jega,Kebbi State,5,6000
+386,Jema'a,Kaduna State,5,6000
+387,Jere,Borno State,5,6000
+388,Jibia,Katsina State,5,6000
+389,Jos East,Plateau State,5,6000
+390,Jos North,Plateau State,5,6000
+391,Jos South,Plateau State,5,6000
+392,Kabba/Bunu,Kogi State,3,3000
+393,Kabo,Kano State,5,6000
+394,Kachia,Kaduna State,5,6000
+395,Kaduna North,Kaduna State,5,6000
+396,Kaduna South,Kaduna State,5,6000
+397,Kafin Hausa,Jigawa State,5,6000
+398,Kafur,Katsina State,5,6000
+399,Kaga,Borno State,5,6000
+400,Kagarko,Kaduna State,5,6000
+401,Kaiama,Kwara State,3,3000
+402,Kaita,Katsina State,5,6000
+403,Kajola,Oyo State,1,1000
+404,Kajuru,Kaduna State,5,6000
+405,Kala/Balge,Borno State,5,6000
+406,Kalgo,Kebbi State,5,6000
+407,Kaltungo,Gombe State,5,6000
+408,Kanam,Plateau State,5,6000
+409,Kankara,Katsina State,5,6000
+410,Kanke,Plateau State,5,6000
+411,Kankia,Katsina State,5,6000
+412,Kano Municipal,Kano State,5,6000
+413,Karasuwa,Yobe State,5,6000
+414,Karaye,Kano State,5,6000
+415,Karim Lamido,Taraba State,5,6000
+416,Karu,Nasarawa State,5,6000
+417,Katagum,Bauchi State,5,6000
+418,Katcha,Niger State,5,6000
+419,Katsina,Katsina State,5,6000
+420,Katsina-Ala,Benue State,5,6000
+421,Kaura,Kaduna State,5,6000
+422,Kaura Namoda,Zamfara State,5,6000
+423,Kauru,Kaduna State,5,6000
+424,Kazaure,Jigawa State,5,6000
+425,Keana,Nasarawa State,5,6000
+426,Kebbe,Sokoto State,5,6000
+427,Keffi,Nasarawa State,5,6000
+428,Khana,Rivers State,5,6000
+429,Kibiya,Kano State,5,6000
+430,Kirfi,Bauchi State,5,6000
+431,Kiri Kasama,Jigawa State,5,6000
+432,Kiru,Kano State,5,6000
+433,Kiyawa,Jigawa State,5,6000
+434,Kogi,Kogi State,3,3000
+435,Koko/Besse,Kebbi State,5,6000
+436,Kokona,Nasarawa State,5,6000
+437,Kolokuma/Opokuma,Bayelsa State,5,6000
+438,Konduga,Borno State,5,6000
+439,Konshisha,Benue State,5,6000
+440,Kontagora,Niger State,5,6000
+441,Kosofe,Lagos State,3,3000
+442,Kaugama,Jigawa State,5,6000
+443,Kubau,Kaduna State,5,6000
+444,Kudan,Kaduna State,5,6000
+445,Kuje,FCT,3,3000
+446,Kukawa,Borno State,5,6000
+447,Kumbotso,Kano State,5,6000
+448,Kumi,Taraba State,5,6000
+449,Kunchi,Kano State,5,6000
+450,Kura,Kano State,5,6000
+451,Kurfi,Katsina State,5,6000
+452,Kusada,Katsina State,5,6000
+453,Kwali,FCT,3,3000
+454,Kwande,Benue State,5,6000
+455,Kwami,Gombe State,5,6000
+456,Kware,Sokoto State,5,6000
+457,Kwaya Kusar,Borno State,5,6000
+458,Lafia,Nasarawa State,5,6000
+459,Lagelu,Oyo State,1,1000
+460,Lagos Island,Lagos State,3,3000
+461,Lagos Mainland,Lagos State,3,3000
+462,Langtang South,Plateau State,5,6000
+463,Langtang North,Plateau State,5,6000
+464,Lapai,Niger State,5,6000
+465,Lamurde,Adamawa State,5,6000
+466,Lau,Taraba State,5,6000
+467,Lavun,Niger State,5,6000
+468,Lere,Kaduna State,5,6000
+469,Logo,Benue State,5,6000
+470,Lokoja,Kogi State,3,3000
+471,Machina,Yobe State,5,6000
+472,Madagali,Adamawa State,5,6000
+473,Madobi,Kano State,5,6000
+474,Mafa,Borno State,5,6000
+475,Magama,Niger State,5,6000
+476,Magumeri,Borno State,5,6000
+477,Mai'Adua,Katsina State,5,6000
+478,Maiduguri,Borno State,5,6000
+479,Maigatari,Jigawa State,5,6000
+480,Maiha,Adamawa State,5,6000
+481,Maiyama,Kebbi State,5,6000
+482,Makarfi,Kaduna State,5,6000
+483,Makoda,Kano State,5,6000
+484,Malam Madori,Jigawa State,5,6000
+485,Malumfashi,Katsina State,5,6000
+486,Mangu,Plateau State,5,6000
+487,Mani,Katsina State,5,6000
+488,Maradun,Zamfara State,5,6000
+489,Mariga,Niger State,5,6000
+490,Makurdi,Benue State,5,6000
+491,Marte,Borno State,5,6000
+492,Maru,Zamfara State,5,6000
+493,Mashegu,Niger State,5,6000
+494,Mashi,Katsina State,5,6000
+495,Matazu,Katsina State,5,6000
+496,Mayo Belwa,Adamawa State,5,6000
+497,Mbaitoli,Imo State,5,6000
+498,Mbo,Akwa Ibom State,5,6000
+499,Michika,Adamawa State,5,6000
+500,Miga,Jigawa State,5,6000
+501,Mikang,Plateau State,5,6000
+502,Minjibir,Kano State,5,6000
+503,Misau,Bauchi State,5,6000
+504,Moba,Ekiti State,3,3000
+505,Mobbar,Borno State,5,6000
+506,Mubi North,Adamawa State,5,6000
+507,Mubi South,Adamawa State,5,6000
+508,Mokwa,Niger State,5,6000
+509,Monguno,Borno State,5,6000
+510,Mopa Muro,Kogi State,3,3000
+511,Moro,Kwara State,3,3000
+512,Moya,Niger State,5,6000
+513,Mkpat-Enin,Akwa Ibom State,5,6000
+514,Municipal Area Council,FCT,3,3000
+515,Musawa,Katsina State,5,6000
+516,Mushin,Lagos State,3,3000
+517,Nafada,Gombe State,5,6000
+518,Nangere,Yobe State,5,6000
+519,Nasarawa,Kano State,5,6000
+520,Nasarawa,Nasarawa State,5,6000
+521,Nasarawa Egon,Nasarawa State,5,6000
+522,Ndokwa East,Delta State,3,3000
+523,Ndokwa West,Delta State,3,3000
+524,Nembe,Bayelsa State,5,6000
+525,Ngala,Borno State,5,6000
+526,Nganzai,Borno State,5,6000
+527,Ngaski,Kebbi State,5,6000
+528,Ngor Okpala,Imo State,5,6000
+529,Nguru,Yobe State,5,6000
+530,Ningi,Bauchi State,5,6000
+531,Njaba,Imo State,5,6000
+532,Njikoka,Anambra State,5,6000
+533,Nkanu East,Enugu State,5,6000
+534,Nkanu West,Enugu State,5,6000
+535,Nkwerre,Imo State,5,6000
+536,Nnewi North,Anambra State,5,6000
+537,Nnewi South,Anambra State,5,6000
+538,Nsit-Atai,Akwa Ibom State,5,6000
+539,Nsit-Ibom,Akwa Ibom State,5,6000
+540,Nsit-Ubium,Akwa Ibom State,5,6000
+541,Nsukka,Enugu State,5,6000
+542,Numan,Adamawa State,5,6000
+543,Nwangele,Imo State,5,6000
+544,Obafemi Owode,Ogun State,3,3000
+545,Obanliku,Cross River State,5,6000
+546,Obi,Benue State,5,6000
+547,Obi,Nasarawa State,5,6000
+548,Obi Ngwa,Abia State,5,6000
+549,Obio/Akpor,Rivers State,5,6000
+550,Obokun,Osun State,3,3000
+551,Obot Akara,Akwa Ibom State,5,6000
+552,Obowo,Imo State,5,6000
+553,Obubra,Cross River State,5,6000
+554,Obudu,Cross River State,5,6000
+555,Odeda,Ogun State,3,3000
+556,Odigbo,Ondo State,3,3000
+557,Odogbolu,Ogun State,3,3000
+558,Odo Otin,Osun State,3,3000
+559,Odukpani,Cross River State,5,6000
+560,Offa,Kwara State,3,3000
+561,Ofu,Kogi State,3,3000
+562,Ogba/Egbema/Ndoni,Rivers State,5,6000
+563,Ogbadibo,Benue State,5,6000
+564,Ogbaru,Anambra State,5,6000
+565,Ogbia,Bayelsa State,5,6000
+566,Ogbomosho North,Oyo State,1,1000
+567,Ogbomosho South,Oyo State,1,1000
+568,Ogu/Bolo,Rivers State,5,6000
+569,Ogoja,Cross River State,5,6000
+570,Ogo Oluwa,Oyo State,1,1000
+571,Ogori/Magongo,Kogi State,3,3000
+572,Ogun Waterside,Ogun State,3,3000
+573,Oguta,Imo State,5,6000
+574,Ohafia,Abia State,5,6000
+575,Ohaji/Egbema,Imo State,5,6000
+576,Ohaozara,Ebonyi State,5,6000
+577,Ohaukwu,Ebonyi State,5,6000
+578,Ohimini,Benue State,5,6000
+579,Orhionmwon,Edo State,3,3000
+580,Oji River,Enugu State,5,6000
+581,Ojo,Lagos State,3,3000
+582,Oju,Benue State,5,6000
+583,Okehi,Kogi State,3,3000
+584,Okene,Kogi State,3,3000
+585,Oke Ero,Kwara State,3,3000
+586,Okigwe,Imo State,5,6000
+587,Okitipupa,Ondo State,3,3000
+588,Okobo,Akwa Ibom State,5,6000
+589,Okpe,Delta State,3,3000
+590,Okrika,Rivers State,5,6000
+591,Olamaboro,Kogi State,3,3000
+592,Ola Oluwa,Osun State,3,3000
+593,Olorunda,Osun State,3,3000
+594,Olorunsogo,Oyo State,1,1000
+595,Oluyole,Oyo State,1,1000
+596,Omala,Kogi State,3,3000
+597,Omuma,Rivers State,5,6000
+598,Ona Ara,Oyo State,1,1000
+599,Ondo East,Ondo State,3,3000
+600,Ondo West,Ondo State,3,3000
+601,Onicha,Ebonyi State,5,6000
+602,Onitsha North,Anambra State,5,6000
+603,Onitsha South,Anambra State,5,6000
+604,Onna,Akwa Ibom State,5,6000
+605,Okpokwu,Benue State,5,6000
+606,Opobo/Nkoro,Rivers State,5,6000
+607,Oredo,Edo State,3,3000
+608,Orelope,Oyo State,1,1000
+609,Oriade,Osun State,3,3000
+610,Ori Ire,Oyo State,1,1000
+611,Orlu,Imo State,5,6000
+612,Orolu,Osun State,3,3000
+613,Oron,Akwa Ibom State,5,6000
+614,Orsu,Imo State,5,6000
+615,Oru East,Imo State,5,6000
+616,Oruk Anam,Akwa Ibom State,5,6000
+617,Orumba North,Anambra State,5,6000
+618,Orumba South,Anambra State,5,6000
+619,Oru West,Imo State,5,6000
+620,Ose,Ondo State,3,3000
+621,Oshimili North,Delta State,3,3000
+622,Oshimili South,Delta State,3,3000
+623,Oshodi-Isolo,Lagos State,3,3000
+624,Osisioma,Abia State,5,6000
+625,Osogbo,Osun State,3,3000
+626,Oturkpo,Benue State,5,6000
+627,Ovia North-East,Edo State,3,3000
+628,Ovia South-West,Edo State,3,3000
+629,Owan East,Edo State,3,3000
+630,Owan West,Edo State,3,3000
+631,Owerri Municipal,Imo State,5,6000
+632,Owerri North,Imo State,5,6000
+633,Owerri West,Imo State,5,6000
+634,Owo,Ondo State,3,3000
+635,Oye,Ekiti State,3,3000
+636,Oyi,Anambra State,5,6000
+637,Oyigbo,Rivers State,5,6000
+638,Oyo,Oyo State,1,1000
+639,Oyo East,Oyo State,1,1000
+640,Oyun,Kwara State,3,3000
+641,Paikoro,Niger State,5,6000
+642,Pankshin,Plateau State,5,6000
+643,Patani,Delta State,3,3000
+644,Pategi,Kwara State,3,3000
+645,Port Harcourt,Rivers State,5,6000
+646,Potiskum,Yobe State,5,6000
+647,Qua'an Pan,Plateau State,5,6000
+648,Rabah,Sokoto State,5,6000
+649,Rafi,Niger State,5,6000
+650,Rano,Kano State,5,6000
+651,Remo North,Ogun State,3,3000
+652,Rijau,Niger State,5,6000
+653,Rimi,Katsina State,5,6000
+654,Rimin Gado,Kano State,5,6000
+655,Ringim,Jigawa State,5,6000
+656,Riyom,Plateau State,5,6000
+657,Rogo,Kano State,5,6000
+658,Roni,Jigawa State,5,6000
+659,Sabon Birni,Sokoto State,5,6000
+660,Sabon Gari,Kaduna State,5,6000
+661,Sabuwa,Katsina State,5,6000
+662,Safana,Katsina State,5,6000
+663,Sagbama,Bayelsa State,5,6000
+664,Sakaba,Kebbi State,5,6000
+665,Saki East,Oyo State,1,1000
+666,Saki West,Oyo State,1,1000
+667,Sandamu,Katsina State,5,6000
+668,Sanga,Kaduna State,5,6000
+669,Sapele,Delta State,3,3000
+670,Sardauna,Taraba State,5,6000
+671,Shagamu,Ogun State,3,3000
+672,Shagari,Sokoto State,5,6000
+673,Shanga,Kebbi State,5,6000
+674,Shani,Borno State,5,6000
+675,Shanono,Kano State,5,6000
+676,Shelleng,Adamawa State,5,6000
+677,Shendam,Plateau State,5,6000
+678,Shinkafi,Zamfara State,5,6000
+679,Shira,Bauchi State,5,6000
+680,Shiroro,Niger State,5,6000
+681,Shongom,Gombe State,5,6000
+682,Shomolu,Lagos State,3,3000
+683,Silame,Sokoto State,5,6000
+684,Soba,Kaduna State,5,6000
+685,Sokoto North,Sokoto State,5,6000
+686,Sokoto South,Sokoto State,5,6000
+687,Song,Adamawa State,5,6000
+688,Southern Ijaw,Bayelsa State,5,6000
+689,Suleja,Niger State,5,6000
+690,Sule Tankarkar,Jigawa State,5,6000
+691,Sumaila,Kano State,5,6000
+692,Suru,Kebbi State,5,6000
+693,Surulere,Oyo State,1,1000
+694,Surulere,Lagos State,3,3000
+695,Tafa,Niger State,5,6000
+696,Tafawa Balewa,Bauchi State,5,6000
+697,Tai,Rivers State,5,6000
+698,Takai,Kano State,5,6000
+699,Takum,Taraba State,5,6000
+700,Talata Mafara,Zamfara State,5,6000
+701,Tambuwal,Sokoto State,5,6000
+702,Tangaza,Sokoto State,5,6000
+703,Tarauni,Kano State,5,6000
+704,Tarka,Benue State,5,6000
+705,Tarmuwa,Yobe State,5,6000
+706,Taura,Jigawa State,5,6000
+707,Toungo,Adamawa State,5,6000
+708,Tofa,Kano State,5,6000
+709,Toro,Bauchi State,5,6000
+710,Toto,Nasarawa State,5,6000
+711,Chafe,Zamfara State,5,6000
+712,Tsanyawa,Kano State,5,6000
+713,Tudun Wada,Kano State,5,6000
+714,Tureta,Sokoto State,5,6000
+715,Udenu,Enugu State,5,6000
+716,Udi,Enugu State,5,6000
+717,Udu,Delta State,3,3000
+718,Udung-Uko,Akwa Ibom State,5,6000
+719,Ughelli North,Delta State,3,3000
+720,Ughelli South,Delta State,3,3000
+721,Ugwunagbo,Abia State,5,6000
+722,Uhunmwonde,Edo State,3,3000
+723,Ukanafun,Akwa Ibom State,5,6000
+724,Ukum,Benue State,5,6000
+725,Ukwa East,Abia State,5,6000
+726,Ukwa West,Abia State,5,6000
+727,Ukwuani,Delta State,3,3000
+728,Umuahia North,Abia State,5,6000
+729,Umuahia South,Abia State,5,6000
+730,Umu Nneochi,Abia State,5,6000
+731,Ungogo,Kano State,5,6000
+732,Unuimo,Imo State,5,6000
+733,Uruan,Akwa Ibom State,5,6000
+734,Urue-Offong/Oruko,Akwa Ibom State,5,6000
+735,Ushongo,Benue State,5,6000
+736,Ussa,Taraba State,5,6000
+737,Uvwie,Delta State,3,3000
+738,Uyo,Akwa Ibom State,5,6000
+739,Uzo Uwani,Enugu State,5,6000
+740,Vandeikya,Benue State,5,6000
+741,Wamako,Sokoto State,5,6000
+742,Wamba,Nasarawa State,5,6000
+743,Warawa,Kano State,5,6000
+744,Warji,Bauchi State,5,6000
+745,Warri North,Delta State,3,3000
+746,Warri South,Delta State,3,3000
+747,Warri South West,Delta State,3,3000
+748,Wasagu/Danko,Kebbi State,5,6000
+749,Wase,Plateau State,5,6000
+750,Wudil,Kano State,5,6000
+751,Wukari,Taraba State,5,6000
+752,Wurno,Sokoto State,5,6000
+753,Wushishi,Niger State,5,6000
+754,Yabo,Sokoto State,5,6000
+755,Yagba East,Kogi State,3,3000
+756,Yagba West,Kogi State,3,3000
+757,Yakuur,Cross River State,5,6000
+758,Yala,Cross River State,5,6000
+759,Yamaltu/Deba,Gombe State,5,6000
+760,Yankwashi,Jigawa State,5,6000
+761,Yauri,Kebbi State,5,6000
+762,Yenagoa,Bayelsa State,5,6000
+763,Yola North,Adamawa State,5,6000
+764,Yola South,Adamawa State,5,6000
+765,Yorro,Taraba State,5,6000
+766,Yunusari,Yobe State,5,6000
+767,Yusufari,Yobe State,5,6000
+768,Zaki,Bauchi State,5,6000
+769,Zango,Katsina State,5,6000
+770,Zangon Kataf,Kaduna State,5,6000
+771,Zaria,Kaduna State,5,6000
+772,Zing,Taraba State,5,6000
+773,Zurmi,Zamfara State,5,6000
+774,Zuru,Kebbi State,5,6000
