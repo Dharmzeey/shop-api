@@ -25,7 +25,6 @@ DATABASES = {
   }
 }
 
-
 CACHES = {
   'default': {
     'BACKEND': 'django.core.cache.backends.db.DatabaseCache',
@@ -38,6 +37,14 @@ CACHES = {
   'email_verification': {
       'BACKEND': 'django.core.cache.backends.db.DatabaseCache',
       'LOCATION': 'email_verification_cache_table',
+    },
+  'password_tries': {
+      'BACKEND': 'django.core.cache.backends.db.DatabaseCache',
+      'LOCATION': 'password_tries_cache_table',
+    },
+  'password_attempts': {
+      'BACKEND': 'django.core.cache.backends.db.DatabaseCache',
+      'LOCATION': 'password_attempts_cache_table',
     },
 }
 
