@@ -53,7 +53,7 @@ jobs:
           username: ${{ secrets.VPS_USER }}
           key: ${{ secrets.VPS_SSH_KEY }}
           script: |
-            cd ~/kwise/backend
-            docker compose pull kwise_backend
-            docker compose up kwise_backend -d
+            cd ~/shop
+            docker compose pull shop_backend
+            docker compose up shop_backend -d
             docker image prune -f
