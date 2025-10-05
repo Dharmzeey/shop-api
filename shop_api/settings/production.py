@@ -8,9 +8,9 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 
 ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS').split(',')
 
-# CORS_ALLOWED_ORIGINS = os.environ.get('CORS_ALLOWED_ORIGINS').split(',')
+CORS_ALLOWED_ORIGINS = os.environ.get('CORS_ALLOWED_ORIGINS').split(',')
 
-CORS_ALLOWED_ORIGINS = ['https://shop.dharmzeey.com']
+# CORS_ALLOWED_ORIGINS = ['https://shop.dharmzeey.com', 'http://localhost:3000']
 
 CSRF_TRUSTED_ORIGINS = ['https://shop-api.dharmzeey.com']
 
