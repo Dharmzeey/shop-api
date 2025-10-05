@@ -12,7 +12,7 @@ ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS').split(',')
 
 CORS_ALLOWED_ORIGINS = ['https://shop.dharmzeey.com']
 
-CSRF_TRUSTED_ORIGINS = ['https://shop.dharmzeey.com']
+CSRF_TRUSTED_ORIGINS = ['https://shop-api.dharmzeey.com']
 
 DATABASES = {
   'default': {
