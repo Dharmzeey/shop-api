@@ -66,5 +66,30 @@ STATIC_URL = '/static/'
 STATIC_ROOT = '/var/www/html/staticfiles'
 # STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 
-MEDIA_URL = 'media/'
-MEDIA_ROOT = '/var/www/html/mediafiles'
+# MEDIA_URL = 'media/'
+# MEDIA_ROOT = '/var/www/html/mediafiles'
+
+AWS_ACCESS_KEY_ID = os.environ.get('B2_APPLICATION_KEY_ID')
+AWS_SECRET_ACCESS_KEY = os.environ.get('B2_APPLICATION_KEY')
+AWS_STORAGE_BUCKET_NAME = os.getenv('B2_BUCKET_NAME')
+AWS_S3_REGION_NAME = os.getenv('B2_REALM', 'eu-central-003')
+
+
+AWS_S3_ENDPOINT_URL = f'https://s3.{AWS_S3_REGION_NAME}.backblazeb2.com'
+
+# Optional: if you want to serve via Cloudflare later
+AWS_S3_CUSTOM_DOMAIN = "media.dharmzeey.com"
+
+# If you want uploads inside "media/"
+AWS_LOCATION = "media"
+
+MEDIA_URL = f"https://{AWS_S3_CUSTOM_DOMAIN}/{AWS_LOCATION}/"
+
+STORAGES = {
+    "default": {
+        "BACKEND": "storages.backends.s3boto3.S3Boto3Storage",
+    },
+    "staticfiles": {
+        "BACKEND": "django.contrib.staticfiles.storage.StaticFilesStorage",
+    }
+}
