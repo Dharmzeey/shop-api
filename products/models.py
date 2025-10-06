@@ -42,7 +42,7 @@ class Product(models.Model):
     name = models.CharField(max_length=255)
     description = models.TextField(blank=True)
     price = models.IntegerField()
-    image = models.ImageField(upload_to="products/%Y/%m", blank=True, null=True)
+    image = models.ImageField(upload_to="products", blank=True, null=True)
     stock = models.PositiveIntegerField(default=0)
     availability_status = models.IntegerField(choices=AVAILABILITY_CHOICES, default=1)
     condition = models.IntegerField(choices=CONDITION_CHOICES, default=0)
@@ -67,7 +67,7 @@ class Deal(models.Model):
     uuid = models.UUIDField(default=uuid.uuid4, unique=True, editable=False)
     title = models.CharField(max_length=200)
     details = models.TextField(blank=True)
-    image = models.ImageField(upload_to="deals/%Y/%m", blank=True, null=True)
+    image = models.ImageField(upload_to="deals", blank=True, null=True)
     link_to = models.URLField(max_length=500, blank=True, null=True)
     created_at = models.DateTimeField(auto_now_add=True)
 
