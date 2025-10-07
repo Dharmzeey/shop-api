@@ -3,11 +3,8 @@ from django.core.exceptions import ValidationError
 from rest_framework.generics import RetrieveAPIView, ListAPIView
 from . import serializers as customSerializers
 from .models import Product, Category, Brand, Deal
-from rest_framework.response import Response
-from rest_framework import status
-from rest_framework.permissions import AllowAny
 
-from utilities.custom_authentication import CustomJWTAuthentication
+from utilities.custom_authentication import OptionalJWTAuthentication
 
 
 class ProductCategoryView(ListAPIView):
@@ -32,26 +29,27 @@ product_brands = ProductBrandView.as_view()
 
 
 class ProductListView(ListAPIView):
-    serializer_class = customSerializers.ProductSerializer
+	serializer_class = customSerializers.ProductSerializer
+	authentication_classes = [OptionalJWTAuthentication]
 
-    def get_queryset(self):
-        queryset = Product.objects.all()
-        category = self.request.query_params.get("category")
-        brand = self.request.query_params.get("brand")
-        color = self.request.query_params.get("color")
-        size = self.request.query_params.get("size")
+	def get_queryset(self):
+		queryset = Product.objects.all()
+		category = self.request.query_params.get("category")
+		brand = self.request.query_params.get("brand")
+		color = self.request.query_params.get("color")
+		size = self.request.query_params.get("size")
 
-        if category:
-            queryset = queryset.filter(category__name__iexact=category)
-        if brand:
-            queryset = queryset.filter(brand__name__iexact=brand)
-        if color:
-            queryset = queryset.filter(color__iexact=color)
-        if size:
-            queryset = queryset.filter(size__iexact=size)
+		if category:
+			queryset = queryset.filter(category__name__iexact=category)
+		if brand:
+			queryset = queryset.filter(brand__name__iexact=brand)
+		if color:
+			queryset = queryset.filter(color__iexact=color)
+		if size:
+			queryset = queryset.filter(size__iexact=size)
 
-        return queryset
-  
+		return queryset
+
 product_list = ProductListView.as_view()
 
 
@@ -68,6 +66,7 @@ product_search = ProductSearchView.as_view()
 
 class ProductsByCategoryView(ListAPIView):
 	serializer_class = customSerializers.ProductSerializer
+	authentication_classes = [OptionalJWTAuthentication]
 
 	def get_queryset(self):
 		category_name = self.kwargs.get("category_name")
@@ -120,9 +119,7 @@ similar_products = SimilarProductsView.as_view()
 
 
 class ProductDetailView(RetrieveAPIView):
-	queryset=Product.objects.all()
-	permission_classes = [AllowAny]
-	authentication_classes = [CustomJWTAuthentication]
+	authentication_classes = [OptionalJWTAuthentication]
 	serializer_class = customSerializers.ProductSerializer
 	def get_object(self):
 		uuid = self.kwargs.get('pk')
