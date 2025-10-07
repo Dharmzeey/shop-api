@@ -30,7 +30,7 @@ product_brands = ProductBrandView.as_view()
 
 class ProductListView(ListAPIView):
 	serializer_class = customSerializers.ProductSerializer
-	authentication_classes = [OptionalJWTAuthentication]
+	# authentication_classes = [OptionalJWTAuthentication]
 
 	def get_queryset(self):
 		queryset = Product.objects.all()
@@ -66,7 +66,7 @@ product_search = ProductSearchView.as_view()
 
 class ProductsByCategoryView(ListAPIView):
 	serializer_class = customSerializers.ProductSerializer
-	authentication_classes = [OptionalJWTAuthentication]
+	# authentication_classes = [OptionalJWTAuthentication]
 
 	def get_queryset(self):
 		category_name = self.kwargs.get("category_name")
