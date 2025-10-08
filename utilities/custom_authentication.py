@@ -12,10 +12,11 @@ class OptionalJWTAuthentication(JWTAuthentication):
     """
     def authenticate(self, request):
         header = self.get_header(request)
-        if header is None:
+        if header is None or header == b'Bearer' or header == 'Bearer':
             return None
 
         raw_token = self.get_raw_token(header)
+        
         if raw_token is None:
             return None
 
